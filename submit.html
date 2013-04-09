@@ -12,17 +12,7 @@
     .navbar a.brand {
       color: #006dcc;
     }
-    footer {
-      position:fixed;
-      bottom:0px;
-    }
-    footer hr{
-      margin:2px;
-    }
-    footer p {
-      padding-left: 5px;
-      margin-bottom: 2px;
-    }
+
   </style>
 
 
@@ -77,25 +67,66 @@
   <div class="container">
 
 
-    <form action="tracker.html">
-      <fieldset>
-        <label>Project name</label>
-        <input type="text" placeholder="name">
-        <label>Description</label>
-        <textarea rows="10" class="input-xxlarge"></textarea>
-        <label>Skills Sets</label>
-        <textarea rows="5" class="input-xxlarge"></textarea>
-        <br>
-        <button type="submit" class="btn btn-large btn-primary">Submit your idea</button>
-      </fieldset>
+    <form action="tracker.html" class="form-horizontal">
+      <div class="control-group">
+        <label class="control-label">Project Name</label>
+        <div class="controls">
+          <span class="help-block">What do you call your idea?</span>
+          <input type="text">
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Description</label>
+        <div class="controls">
+          <span class="help-block">Describe your idea briefly</span>
+          <textarea rows="5" class="input-xxlarge" ></textarea>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Upload</label>
+        <div class="controls">
+          <span class="help-block">Optional: Upload a file instead of filing out the rest of the form</span>
+          <input type="file">
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Requirements of the finished product</label>
+        <div class="controls">
+          <span class="help-block">What are you developing? What standards or measurements must it meet?</span>
+          <textarea rows="5" class="input-xxlarge" ></textarea>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Environment</label>
+        <div class="controls">
+          <span class="help-block">How are you developing this? What is the environment (stack) you are using?</span>
+          <textarea rows="5" class="input-xxlarge" ></textarea>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label">Skills required</label>
+        <div class="controls">
+          <span class="help-block">What is the skill set that a student should have to work on this?</span>
+          <textarea rows="5" class="input-xxlarge"></textarea>
+        </div>
+      </div>
+
+
+      <div class="control-group">
+        <div class="controls">
+          <button type="submit" class="btn btn-large btn-primary">Submit your idea</button>
+        </div>
+      </div>
+
+
     </form>
 
   </div> <!-- /container -->
-
-  <footer>
-    <hr>
-    <p>&copy; Entry Point 2013</p>
-  </footer>
 
 </body>
 </html>

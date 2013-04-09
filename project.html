@@ -12,17 +12,6 @@
     .navbar a.brand {
       color: #006dcc;
     }
-    footer {
-      position:fixed;
-      bottom:0px;
-    }
-    footer hr{
-      margin:2px;
-    }
-    footer p {
-      padding-left: 5px;
-      margin-bottom: 2px;
-    }
   </style>
 
 
@@ -75,31 +64,38 @@
   </div> 
             
   <div class="container">
+    <div class="pull-right">
+      <span>Sponsored by </span>
+      <img src="img/linkedin.png">
+    </div>
     <h1>Entry Point</h1>
 
     <img src="http://twitter.github.com/bootstrap/assets/img/examples/slide-01.jpg">
 
     <div class="row">
-      <div class="span4">
-        <div>
-          <h2>Team Members</h2>
-          <ul>
-            <li><a href="student.html">John Smith</a></li>
-            <li><a href="student.html">Pocahontas</a></li>
-            <li><a href="student.html">John Ralph</a></li>
-            <li><a href="student.html">Chief Sitting Beard</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Sponsor</h2>
-          <p>Anim pariatur cliche...</p>
-          <img src="img/linkedin.png">
+      <div class="span12">
+        <h2>Project Info</h2>
+        <div class="well">
+          <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula sollicitudin augue sed placerat. Maecenas luctus mollis dui, feugiat iaculis enim ultrices at. Ut tempor, velit in adipiscing sagittis, ipsum erat consectetur diam, et adipiscing diam orci ac nisl. Donec mattis turpis et tortor vestibulum interdum ac sit amet sapien. Praesent quam urna, viverra nec hendrerit in, mattis eget augue.</p>
         </div>
       </div>
-      <div class="span8">
-        <h2>Project Info</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula sollicitudin augue sed placerat. Maecenas luctus mollis dui, feugiat iaculis enim ultrices at. Ut tempor, velit in adipiscing sagittis, ipsum erat consectetur diam, et adipiscing diam orci ac nisl. Donec mattis turpis et tortor vestibulum interdum ac sit amet sapien. Praesent quam urna, viverra nec hendrerit in, mattis eget augue. Vestibulum malesuada urna nec dui rhoncus lacinia. Curabitur imperdiet, velit eu iaculis placerat, erat libero molestie elit, a tincidunt ligula mi quis tellus. Aliquam turpis est, dapibus sit amet hendrerit ac, ullamcorper faucibus lacus. Fusce vitae erat lacus, sit amet fermentum eros. Vivamus congue consectetur pellentesque.</p>
-        <h2>Tracker</h2>
+    </div>   
+
+    <div class="row">
+      <div class="span12">
+        <h2>Team Members</h2>
+        <ul>
+          <li><a href="student.html">John Smith</a></li>
+          <li><a href="student.html">Pocahontas</a></li>
+          <li><a href="student.html">John Ralph</a></li>
+          <li><a href="student.html">Chief Sitting Beard</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <h2>Deliverables</h2>
         <div class="accordion" id="accordion2">
           <div class="accordion-group">
             <div class="accordion-heading">
@@ -107,16 +103,18 @@
                 Phase 1
               </a>
             </div>
-            <div id="collapseOne" class="accordion-body collapse">
+            <div id="collapseOne" class="accordion-body collapse in">
               <div class="accordion-inner">
-                <div class="span1"><img src="img/home.png"></div>
-                <div class="span1"><img src="img/chevron_orange.png"></div>
-                <div class="span1"><img src="img/filter.png"></div>
-                <div class="span1"><img src="img/chevron_orange.png"></div>
-                <div class="span1"><img src="img/thumbs_up.png"></div>
-                <div class="span1"><img src="img/chevron_orange.png"></div>
-                <div class="clearfix"></div>
+                <h3>Status</h3>
                 Anim paritur cliche...
+                <h3>Image</h3>
+                <img src="http://twitter.github.com/bootstrap/assets/img/examples/slide-02.jpg" style="width:500px;">
+                <h3>Video</h3>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/MP1gvGcXcLk" frameborder="0" allowfullscreen></iframe>
+                <h3>Attachments</h3>
+                <span><i class="icon-file"></i> requirements.doc</span> <br>
+                <span><i class="icon-picture"></i> mockup.png</span> <br>
+                <span><i class="icon-facetime-video"></i> making_of.mov</span> <br>
               </div>
             </div>
           </div>
@@ -128,11 +126,16 @@
             </div>
             <div id="collapseTwo" class="accordion-body collapse">
               <div class="accordion-inner">
-                <div class="span1"><img src="img/group.png" class="active" ></div>
-                <div class="span1"><img src="img/chevron_orange.png"></div>
-                <div class="span1"><img src="img/check.png"></div>
-                <div class="clearfix"></div>
+                <h3>Status</h3>
                 Anim pariatur cliche...
+                <h3>Image</h3>
+                <img src="http://twitter.github.com/bootstrap/assets/img/examples/slide-03.jpg" style="width:500px;">
+                <h3>Video</h3>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/dXmMQJMFL_I" frameborder="0" allowfullscreen></iframe>
+                <h3>Attachments</h3>
+                <span><i class="icon-file"></i> executive_summary.docx</span> <br>
+                <span><i class="icon-picture"></i> final_mockups.png</span> <br>
+                <span><i class="icon-facetime-video"></i> final_making_of.mov</span> <br>
               </div>
             </div>
           </div>
