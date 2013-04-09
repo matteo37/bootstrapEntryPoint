@@ -89,15 +89,17 @@
     <h1>Track your submission</h1>
 
     <div class="row">
+      <div class="span1">Phase 1</div>
       <div style="width:50px;" class="span1"><img src="img/home.png"></div>
       <div class="span1"><img src="img/chevron_orange.png"></div>
-      <div style="width:50px;" class="span1"><img src="img/filter.png"></div>
+      <div class="span1"><img src="img/filter.png"></div>
       <div class="span1"><img src="img/chevron_orange.png"></div>
-      <div style="width:50px;" class="span1"><img src="img/thumbs_up.png"></div>
+      <div class="span1"><img src="img/thumbs_up.png"></div>
       <div class="span1"><img src="img/chevron_orange.png"></div>
-      <div style="width:100px;" class="span2"><img src="img/group.png" class="active" ></div>
+      <div class="span1">Phase 2</div>
+      <div class="span1"><img src="img/group.png" class="active" ></div>
       <div class="span1"><img src="img/chevron_orange.png"></div>
-      <div style="width:50px;" class="span1"><img src="img/check.png"></div>
+      <div class="span1"><img src="img/check.png"></div>
     </div>
 
     <p>Your project is in the <strong>development</strong> step.</p>

@@ -83,18 +83,18 @@
 
     <div>
       <label>Project: &nbsp;<input type="search" class="span5 search-query">
-      <button class="btn btn-primary">Find a Project</button></label>
+      <button id="projectButton" class="btn btn-primary">Find a Project</button></label>
     </div>
 
     <p>or</p>
 
     <div>
       <label>Student: <input type="search" class="span5 search-query">
-      <button class="btn btn-primary">Find a Student</button></label>
+      <button id="studentButton" class="btn btn-primary">Find a Student</button></label>
     </div>
 
     <div>
-      <table class="table table-striped">
+      <table id ="search_table" class="table table-striped" style="display:none;">
         <thead>
           <tr>
             <th>Name</th>
@@ -158,6 +158,19 @@
     <hr>
     <p>&copy; Entry Point 2013</p>
   </footer>
+<script>
 
+$("#projectButton").click( function()
+           {
+	     $("#search_table").css("display","block");
+           }
+        );
+
+$("#studentButton").click( function()
+           {
+	     $("#search_table").css("display","block");
+           }
+        );
+</script>
 </body>
 </html>
